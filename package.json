@@ -1,0 +1,22 @@
+{
+  "name": "spotify-free-smtc",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@elgato/streamdeck": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "optionalDependencies": {
+    "win-media-control": "^0.1.1",
+    "windows-media-sessions": "^1.0.0"
+  },
+  "description": "Stream Deck / OpenDeck plugin to control Spotify without Premium (Windows SMTC + svcl, Linux MPRIS + pactl)",
+  "license": "MIT"
+}
