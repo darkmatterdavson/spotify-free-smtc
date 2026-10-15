@@ -1,0 +1,113 @@
+{
+  "Name": "Spotify Free SMTC",
+  "Version": "1.0.0.0",
+  "Author": "DarkMatterDavson",
+  "Description": "Spotify controller via Windows SMTC. Play, pause, skip tracks and control volume.",
+  "UUID": "com.darkmatterdavson.spotify-free-smtc",
+  "SDKVersion": 3,
+  "CodePath": "bin/plugin.js",
+  "Icon": "imgs/plugin/marketplace",
+  "Category": "Spotify Free SMTC",
+  "CategoryIcon": "imgs/plugin/category-icon",
+  "Software": {
+    "MinimumVersion": "7.1"
+  },
+  "Nodejs": {
+    "Version": "24",
+    "Debug": "enabled"
+  },
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Actions": [
+    {
+      "Name": "Play / Pause",
+      "UUID": "com.darkmatterdavson.spotify-free-smtc.playpause",
+      "Icon": "imgs/actions/playpause/icon",
+      "Tooltip": "Přehrát / Pauza",
+      "Controllers": ["Keypad"],
+      "States": [
+        {
+          "Image": "imgs/actions/playpause/play",
+          "TitleAlignment": "middle"
+        },
+        {
+          "Image": "imgs/actions/playpause/pause",
+          "TitleAlignment": "middle"
+        }
+      ]
+    },
+    {
+      "Name": "Next Track",
+      "UUID": "com.darkmatterdavson.spotify-free-smtc.next",
+      "Icon": "imgs/actions/next/icon",
+      "Tooltip": "Další skladba",
+      "Controllers": ["Keypad"],
+      "States": [
+        {
+          "Image": "imgs/actions/next/key",
+          "TitleAlignment": "middle"
+        }
+      ]
+    },
+    {
+      "Name": "Previous Track",
+      "UUID": "com.darkmatterdavson.spotify-free-smtc.prev",
+      "Icon": "imgs/actions/prev/icon",
+      "Tooltip": "Předchozí skladba",
+      "Controllers": ["Keypad"],
+      "States": [
+        {
+          "Image": "imgs/actions/prev/key",
+          "TitleAlignment": "middle"
+        }
+      ]
+    },
+    {
+      "Name": "Volume Up",
+      "UUID": "com.darkmatterdavson.spotify-free-smtc.volumeup",
+      "Icon": "imgs/actions/volumeup/icon",
+      "Tooltip": "Zvýšit hlasitost",
+      "Controllers": ["Keypad"],
+      "States": [
+        {
+          "Image": "imgs/actions/volumeup/key",
+          "TitleAlignment": "middle"
+        }
+      ]
+    },
+    {
+      "Name": "Volume Down",
+      "UUID": "com.darkmatterdavson.spotify-free-smtc.volumedown",
+      "Icon": "imgs/actions/volumedown/icon",
+      "Tooltip": "Snížit hlasitost",
+      "Controllers": ["Keypad"],
+      "States": [
+        {
+          "Image": "imgs/actions/volumedown/key",
+          "TitleAlignment": "middle"
+        }
+      ]
+    },
+    {
+      "Name": "Mute",
+      "UUID": "com.darkmatterdavson.spotify-free-smtc.mute",
+      "Icon": "imgs/actions/mute/icon",
+      "Tooltip": "Ztlumit / Zrušit ztlumení",
+      "Controllers": ["Keypad"],
+      "States": [
+        {
+          "Image": "imgs/actions/mute/unmuted",
+          "TitleAlignment": "middle"
+        },
+        {
+          "Image": "imgs/actions/mute/muted",
+          "TitleAlignment": "middle"
+        }
+      ]
+    }
+  ]
+}
