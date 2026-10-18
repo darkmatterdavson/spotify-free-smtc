@@ -2,7 +2,7 @@
 
 Control the Spotify desktop app from your Elgato Stream Deck — **no Spotify Premium, no Web API, no login**.
 
-![Image](https://private-user-images.githubusercontent.com/40635601/677136900-3ca2dbac-6f44-43b6-a7c5-49dd8bb0e863.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTIzMjE1NzUsIm5iZiI6MTc5MjMyMTI3NSwicGF0aCI6Ii80MDYzNTYwMS82NzcxMzY5MDAtM2NhMmRiYWMtNmY0NC00M2I2LWE3YzUtNDlkZDhiYjBlODYzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjEwMTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMDE4VDExMDExNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ5ZmIyOGRlOWRmZDMxYjc4NWUyNTI3MTU5ODZiMDk0N2FjNmY4MGIzYjI4ZWFjODE5MzZiYzI3MzEyZGJiMzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.nNWeSPNCzehiGa-q5TJWsbHl46V0ipW9-tzdSh556ys)
+![Image](https://github.com/darkmatterdavson/spotify-free-smtc/blob/main/banner.png?raw=true)
 
 Works on **Windows** (Elgato Stream Deck app) and, experimentally, on **Linux** ([OpenDeck](https://github.com/nekename/OpenDeck)).
 
